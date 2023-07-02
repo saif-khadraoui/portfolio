@@ -147,10 +147,15 @@ nav .logo{
     height: 40px;
     border-radius: 5px;
     background-color: RGB(10, 25, 47);
-    color: RGB(72, 184, 165);;
+    color: RGB(72, 184, 165);
     outline: none;
     font-size: 14px;
     margin: 0;
+}
+
+.blog_button button a{
+    text-decoration: none;
+    color: RGB(72, 184, 165);
 }
 
 .email{
@@ -162,6 +167,17 @@ nav .logo{
     bottom: 0px;
     left: auto;
     right: 20px;
+}
+
+.email a{
+    margin-bottom: 8px;
+}
+
+.email #aside_logo{
+    color: RGB(72, 184, 165);
+    font-size: 26px;
+    margin-bottom: 8px;
+    cursor: pointer;
 }
 
 .email p{
